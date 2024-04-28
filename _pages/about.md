@@ -17,7 +17,5 @@ Research interests:
 
 Education
 ======
-##* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-##* M.S. in Jekyll, GitHub University, 2014
 * B.S. in Mathematics & B.A. in Physics, Syracuse University, 2021
 
