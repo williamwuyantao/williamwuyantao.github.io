@@ -8,4 +8,16 @@ redirect_from:
 ---
 
 I am a Math PhD candidate in Johns Hopkins University. My advisors are Dr. [Yannick Sire](https://scholar.google.com/citations?hl=en&user=sd1Qv2EAAAAJ&view_op=list_works&sortby=pubdate) and Dr. [Mauro Maggioni](https://mauromaggioni.duckdns.org/). 
-My research interests contain regularity & singularity formation of parabolic partial differential equation, nonparametric statistical learning.
+
+Research interests:
+======
+* regularity & singularity formation of parabolic partial differential equation
+* nonparametric statistical learning.
+
+
+Education
+======
+##* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+##* M.S. in Jekyll, GitHub University, 2014
+* B.S. in Mathematics & B.A. in Physics, Syracuse University, 2021
+
