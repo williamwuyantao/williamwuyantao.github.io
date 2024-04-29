@@ -6,9 +6,9 @@ author_profile: true
 
 Attended conference/workshop/summer school
 ------
-* 2022 UMN: summer workshop on Analysis of PDEs, Minneapolis, MN
-* 2023 AMSS CAS: Nonlinear Analysis and its Applications in Geometry, Beijing, China
-* 2024 UMD Brin MRC: Scientific Machine Learning: Theory and Algorithms, College Park, MD
+* <span style="font-size:0.8em;">2022 UMN: summer workshop on Analysis of PDEs. Minneapolis, MN </span> 
+* <span style="font-size:0.8em;">2023 AMSS CAS: Nonlinear Analysis and its Applications in Geometry. Beijing, China </span> 
+* <span style="font-size:0.8em;">2024 UMD Brin MRC: Scientific Machine Learning: Theory and Algorithms. College Park, MD</span> 
 
 <!---
 ## Locations of key files/directories
