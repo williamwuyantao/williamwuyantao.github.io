@@ -17,7 +17,8 @@ Education
   * Distinction in Mathematics
   * Syracuse University Scholar
   * Member of Phi Beta Kappa
-  * Math Department Awards: Euclid Prize in 2020 & Archimedes Prize in 2021 • Physics Department Award: Neil F. Beardsley Prize in 2021
+  * Math Department Awards: Euclid Prize in 2020 & Archimedes Prize in 2021 
+  * Physics Department Award: Neil F. Beardsley Prize in 2021
 
 Academic Awards
 ======
