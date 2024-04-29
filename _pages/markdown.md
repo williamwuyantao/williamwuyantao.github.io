@@ -4,6 +4,12 @@ title: "Activities"
 author_profile: true
 ---
 
+Attended conference/workshop/summer school
+* 2022 UMN: summer workshop on Analysis of PDEs, Minneapolis, MN
+* 2023 AMSS CAS: Nonlinear Analysis and its Applications in Geometry, Beijing, China
+* 2024 UMD Brin MRC: Scientific Machine Learning: Theory and Algorithms, College Park, MD
+
+<!---
 ## Locations of key files/directories
 
 * Basic config options: _config.yml
@@ -258,4 +264,4 @@ This allows you to denote <var>variables</var>.
 **Footnotes**
 
 The footnotes in the page will be returned following this line, return to the section on <a href="#footnotes">Markdown Footnotes</a>.
-
+--->
