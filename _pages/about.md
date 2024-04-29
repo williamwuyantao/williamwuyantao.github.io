@@ -11,14 +11,12 @@ I am a Math PhD candidate in Johns Hopkins University.
 My advisors are Dr. [Yannick Sire](https://scholar.google.com/citations?hl=en&user=sd1Qv2EAAAAJ&view_op=list_works&sortby=pubdate) and Dr. [Mauro Maggioni](https://mauromaggioni.duckdns.org/). 
 
 Research interests
-
 ------
 
 * regularity & singularity formation of parabolic partial differential equation
 * nonparametric statistical learning.
 
 Publication
-
 ------
 
 * Y. Sire, Y. Wu, and Y. Zhou.  Global Existence of Weak Solutions to the Two Dimensional Nematic Liquid Crystal Flow with Partially Free Boundary. arXiv preprint. [arXiv:2308.04358](https://arxiv.org/abs/2308.04358)
