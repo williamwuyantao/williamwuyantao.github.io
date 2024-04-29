@@ -7,8 +7,8 @@ redirect_from:
   - /about.html
 ---
 
-I am a Math PhD candidate in Johns Hopkins University. 
-My advisors are Dr. [Yannick Sire](https://scholar.google.com/citations?hl=en&user=sd1Qv2EAAAAJ&view_op=list_works&sortby=pubdate) and Dr. [Mauro Maggioni](https://mauromaggioni.duckdns.org/). 
+I am a Math PhD candidate in Johns Hopkins University. <br>
+My advisors are Prof. [Yannick Sire](https://scholar.google.com/citations?hl=en&user=sd1Qv2EAAAAJ&view_op=list_works&sortby=pubdate) and Prof. [Mauro Maggioni](https://mauromaggioni.duckdns.org/). 
 
 Research interests
 ------
