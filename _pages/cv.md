@@ -11,52 +11,30 @@ redirect_from:
 
 Education
 ======
-* B.S. in Mathematics & B.A. in Physics, Syracuse University, 2021
+* Ph.D. program in Mathematics, 2021 - Now
+* B.S. in Mathematics & B.A. in Physics, Syracuse University, 2018 - 2021
+  * *Summa Cum Laude* (Cumulative GPA: 3.992/4.000)
+  * Distinction in Mathematics
+  * Syracuse University Scholar
+  * Member of Phi Beta Kappa
+  * Math Department Awards: Euclid Prize in 2020 & Archimedes Prize in 2021 • Physics Department Award: Neil F. Beardsley Prize in 2021
 
-Work experience
+Academic Awards
 ======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* Chinese Mathematical Olympiad: First prize in provincial level in 2017
+* Chinese Physics Olympiad: First prize in provincial level in 2017
+* William Lowell Putnam Mathematical Competition: ranked in top 15% nationwide in 2018&2019
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+Teaching Experience
+======
+* Syracuse University: 
+  * Math help room: tutor students on elementary Calculus. 
+  * Teaching Assistant: MAT 412: Introduction to Real Analysis I, MAT 517: Partial Differential Equations and Fourier Series, and MAT 534: Introduction to Abstract Algebra.
+* Johns Hopkins University:
+  * Math help room: tutor students on undergraduate math courses.
+  * Teaching Assistant: Math 107: Calculus II, Math 201: Linear Algebra , Math 202: Calculus III, Math 311: Methods in Complex Analysis.
 
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
+Technical Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
-
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+* Programming Languages: Python, Matlab, Mathematica 
+* Software & Tools Microsoft Office, LATEX
