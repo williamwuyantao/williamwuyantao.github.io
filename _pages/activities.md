@@ -7,12 +7,16 @@ author_profile: true
 Attended conference/workshop/summer school
 ------
 
+
 * <span style="font-size:0.8em;">2022 UMN: summer workshop on Analysis of PDEs. Minneapolis, MN </span> 
 * <span style="font-size:0.8em;">2023 AMSS CAS: Nonlinear Analysis and its Applications in Geometry. Beijing, China </span> 
 * <span style="font-size:0.8em;">2024 UMD Brin MRC: Scientific Machine Learning: Theory and Algorithms. College Park, MD</span> 
 * <span style="font-size:0.8em;">2024 ICERM: Interacting Particle Systems: Analysis, Control, Learning and Computation </span> 
 * <span style="font-size:0.8em;">2024 UMN: Recent Advances in Nonlinear Partial Differential Equations </span> 
+* <span style="font-size:0.8em;">2024 MSRI: Particle interactive systems: Analysis and computational methods
+ </span> 
 * <span style="font-size:0.8em;">2024 Princeton University: Machine Learning Theory Summer School </span> 
+
 
 
 <!---
