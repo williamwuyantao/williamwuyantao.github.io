@@ -19,7 +19,9 @@ Research interests
 Publication
 ------
 
-* Y. Sire, Y. Wu, and Y. Zhou.  Global Existence of Weak Solutions to the Two Dimensional Nematic Liquid Crystal Flow with Partially Free Boundary. Journal of the London Mathematical Society, to appear. [ [arXiv:2308.04358](https://arxiv.org/abs/2308.04358)]
+* Y. Sire, Y. Wu, and Y. Zhou. (2024). Global existence of weak solutions to the two‐dimensional nematic liquid crystal flow with partially free boundary. Journal of the London Mathematical Society. 110. 10.1112/jlms.70008.  [[paper](https://londmathsoc.onlinelibrary.wiley.com/doi/10.1112/jlms.70008) [arXiv](https://arxiv.org/abs/2308.04358)]
+
 * Y. Sire, Y. Wu, Y. Zhou.  Geometric variational problems with free boundary: harmonic maps, minimal surfaces and applications to a new model of Liquid Crystal Flow. Coimbra Mathematical Texts, to appear.
-* L. Kennard, Y. Wu. Halperin’s Conjecture in Formal Dimensions up to 20. Communication in Algebra. 2023, Volume 51, Issue 8. [paper](https://www.tandfonline.com/doi/abs/10.1080/00927872.2023.2186705)
+
+* L. Kennard, Y. Wu. Halperin’s Conjecture in Formal Dimensions up to 20. Communication in Algebra. 2023, Volume 51, Issue 8. [[paper](https://www.tandfonline.com/doi/abs/10.1080/00927872.2023.2186705) [arXiv](https://arxiv.org/abs/2104.04086)]
 
