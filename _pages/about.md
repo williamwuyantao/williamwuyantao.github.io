@@ -18,6 +18,7 @@ Research interests
 
 Publication
 ------
+* Y. Wu, M. Maggioni. (2024). Conditional regression for the Nonlinear Single-Variable Model. [arXiv](https://arxiv.org/abs/2411.09686)
 
 * Y. Sire, Y. Wu, and Y. Zhou. (2024). Global existence of weak solutions to the two‐dimensional nematic liquid crystal flow with partially free boundary. Journal of the London Mathematical Society. 110. 10.1112/jlms.70008.  [[paper](https://londmathsoc.onlinelibrary.wiley.com/doi/10.1112/jlms.70008) [arXiv](https://arxiv.org/abs/2308.04358)]
 
