@@ -10,15 +10,16 @@ redirect_from:
 I am a Math PhD candidate in Johns Hopkins University. <br>
 My advisors are Prof. [Yannick Sire](https://scholar.google.com/citations?hl=en&user=sd1Qv2EAAAAJ&view_op=list_works&sortby=pubdate) and Prof. [Mauro Maggioni](https://mauromaggioni.duckdns.org/). 
 
-Research interests
+Research Topics
 ------
+* Nonparametric Statistical Learning, Supervised Learning Theory
+* Theoretical Machine Learning
+* Regularity vs Singularity in Parabolic PDEs
 
-* regularity & singularity formation of parabolic partial differential equation
-* nonparametric statistical learning.
 
 Publication
 ------
-* Y. Wu, M. Maggioni. (2024). Conditional regression for the Nonlinear Single-Variable Model. [arXiv](https://arxiv.org/abs/2411.09686)
+* Y. Wu, M. Maggioni. (2024). Conditional regression for the Nonlinear Single-Variable Model. [arXiv](https://arxiv.org/abs/2411.09686). Jorunal of Machine Learning Research, submitted. 
 
 * Y. Sire, Y. Wu, and Y. Zhou. (2024). Global existence of weak solutions to the two‐dimensional nematic liquid crystal flow with partially free boundary. Journal of the London Mathematical Society. 110. 10.1112/jlms.70008.  [[paper](https://londmathsoc.onlinelibrary.wiley.com/doi/10.1112/jlms.70008) [arXiv](https://arxiv.org/abs/2308.04358)]
 
