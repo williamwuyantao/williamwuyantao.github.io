@@ -12,14 +12,13 @@ My advisors are Prof. [Yannick Sire](https://scholar.google.com/citations?hl=en&
 
 Research Topics
 ------
-* Nonparametric Statistical Learning, Supervised Learning Theory
-* Theoretical Machine Learning
-* Regularity vs Singularity in Parabolic PDEs
+* Statistical Machine Learning
+* Paritial Differential Equations
 
 
 Publication
 ------
-* Y. Wu, M. Maggioni. (2024). Conditional regression for the Nonlinear Single-Variable Model. [arXiv](https://arxiv.org/abs/2411.09686). Jorunal of Machine Learning Research, submitted. 
+* Y. Wu, M. Maggioni. (2024). Conditional regression for the Nonlinear Single-Variable Model. [arXiv](https://arxiv.org/abs/2411.09686). Jorunal of Machine Learning Research, under review (revise & resubmit). 
 
 * Y. Sire, Y. Wu, and Y. Zhou. (2024). Global existence of weak solutions to the two‐dimensional nematic liquid crystal flow with partially free boundary. Journal of the London Mathematical Society. 110. 10.1112/jlms.70008.  [[paper](https://londmathsoc.onlinelibrary.wiley.com/doi/10.1112/jlms.70008) [arXiv](https://arxiv.org/abs/2308.04358)]
 
