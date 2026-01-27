@@ -18,11 +18,13 @@ Research Topics
 
 Publication
 ------
-* Y. Wu, M. Maggioni. (2024). Conditional regression for the Nonlinear Single-Variable Model. [arXiv](https://arxiv.org/abs/2411.09686). Jorunal of Machine Learning Research, under review (revise & resubmit). 
+* Fanghua Lin, Yannick Sire, Yantao Wu, Yifu Zhou. (2026) Liquid crystals and topological vorticity: smoothness of mild solutions. [arXiv](https://arxiv.org/abs/2601.18726).
 
-* Y. Sire, Y. Wu, and Y. Zhou. (2024). Global existence of weak solutions to the two‐dimensional nematic liquid crystal flow with partially free boundary. Journal of the London Mathematical Society. 110. 10.1112/jlms.70008.  [[paper](https://londmathsoc.onlinelibrary.wiley.com/doi/10.1112/jlms.70008) [arXiv](https://arxiv.org/abs/2308.04358)]
+* Yantao Wu, Mauro Maggioni. (2024). Conditional regression for the Nonlinear Single-Variable Model. [arXiv](https://arxiv.org/abs/2411.09686). Jorunal of Machine Learning Research, under review (revise & resubmit). 
 
-* Y. Sire, Y. Wu, Y. Zhou.  Geometric variational problems with free boundary: harmonic maps, minimal surfaces and applications to a new model of Liquid Crystal Flow. Coimbra Mathematical Texts, to appear.
+* Yannick Sire, Yantao Wu, and Yifu Zhou. (2024). Global existence of weak solutions to the two‐dimensional nematic liquid crystal flow with partially free boundary. Journal of the London Mathematical Society. 110. 10.1112/jlms.70008.  [[paper](https://londmathsoc.onlinelibrary.wiley.com/doi/10.1112/jlms.70008) [arXiv](https://arxiv.org/abs/2308.04358)]
 
-* L. Kennard, Y. Wu. Halperin’s Conjecture in Formal Dimensions up to 20. Communication in Algebra. 2023, Volume 51, Issue 8. [[paper](https://www.tandfonline.com/doi/abs/10.1080/00927872.2023.2186705) [arXiv](https://arxiv.org/abs/2104.04086)]
+* Yannick Sire, Yantao Wu, Yifu Zhou.  Geometric variational problems with free boundary: harmonic maps, minimal surfaces and applications to a new model of Liquid Crystal Flow. Coimbra Mathematical Texts, to appear.
+
+* Lee Kennard, Yantao Wu. Halperin’s Conjecture in Formal Dimensions up to 20. Communication in Algebra. 2023, Volume 51, Issue 8. [[paper](https://www.tandfonline.com/doi/abs/10.1080/00927872.2023.2186705) [arXiv](https://arxiv.org/abs/2104.04086)]
 
