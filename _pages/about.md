@@ -18,6 +18,8 @@ Research Topics
 
 Publication (α-β for alphabetical order)
 ------
+* Thomas Y. Hou, Xiang Qin, Yannick Sire, **Yantao Wu** (α-β). (2026) Self-similar blow-up profile for the one-dimensional reduction of generalized SQG with infinite energy. [arXiv](https://arxiv.org/abs/2603.11301).
+
 * Fanghua Lin, Yannick Sire, **Yantao Wu** (α-β), Yifu Zhou. (2026) Liquid crystals and topological vorticity: smoothness of mild solutions. [arXiv](https://arxiv.org/abs/2601.18726).
 
 * **Yantao Wu**, Mauro Maggioni. (2024). Conditional regression for the Nonlinear Single-Variable Model. [arXiv](https://arxiv.org/abs/2411.09686). Jorunal of Machine Learning Research, under review (revise & resubmit). 
