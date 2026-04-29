@@ -1,0 +1,141 @@
+\documentclass{resume}
+
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[final]{microtype}
+
+\usepackage[left=0.7in,top=0.6in,right=0.7in,bottom=0.6in]{geometry}
+\usepackage{xspace,amsmath,amssymb,enumitem}
+\usepackage{hyperref}
+\usepackage{needspace}
+\setlist[itemize]{leftmargin=1.2em, itemsep=1pt, topsep=2pt, parsep=0pt, partopsep=0pt}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,
+    urlcolor=blue,
+}
+\urlstyle{same}
+
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+\emergencystretch=2em
+\usepackage{needspace}
+
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\newcommand{\latex}{\LaTeX\xspace}
+\newcommand{\proj}[2]{%
+  \Needspace{5\baselineskip}%
+  \noindent{\bfseries #1} \hfill {\em #2}\par\vspace{-0.3em}%
+}
+
+\name{YANTAO WU}
+\address{Baltimore, MD, USA}
+\address{+1 (315) 849-8356 \\ \href{mailto:williamwuyantao@gmail.com}{williamwuyantao@gmail.com} \\ \href{https://williamwuyantao.github.io/}{williamwuyantao.github.io}}
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+\vspace{-2mm}
+\begin{rSection}{Education}
+{\bf Johns Hopkins University, Baltimore, MD} \hfill {\em Sep 2021 -- Present}
+\\ Ph.D.\ Candidate in Mathematics\\
+Advisors: Prof.\ Mauro Maggioni and Prof.\ Yannick Sire.\\
+Research Interests: Statistical Machine Learning, LLM Agents, Partial Differential Equations, and AI for Science.
+
+{\bf Syracuse University, Syracuse, NY} \hfill {\em Jan 2018 -- May 2021}
+\\Dual Degree: B.S. in Mathematics and B.A. in Physics
+\vspace{-2mm}
+\begin{itemize}
+ 
+    \item \textit{Summa Cum Laude} (Cumulative GPA: 3.992/4.000)
+    \item Distinction in Mathematics
+    \item Syracuse University Scholar
+    \item Member of Phi Beta Kappa
+\end{itemize}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Current Research Projects}
+
+\proj{Manifold Footprint Model}{2025--2026}
+\begin{itemize}
+  \item Developed a nonparametric regression framework for $F(x)=f(\Pi_{\mathcal M}x)$ that exploits unknown submanifold structure to reduce the effective statistical dimension of high-dimensional regression and mitigate the curse of dimensionality under structural assumptions.
+  \item Designed and implemented CUDA/MEX accelerated cross-validation kernels, including warp-cooperative Jacobi eigensolvers and persistent GPU memory management, achieving roughly \(100\times\) speedup over the MATLAB reference implementation on a 60{,}000-sample cross-validation task.
+\end{itemize}
+
+\proj{Auto-Research Agent}{2026}
+\begin{itemize}
+  \item Built a multi-agent research automation platform covering literature review, experiment planning, remote execution, result analysis, automated review, and paper/report generation. Deployed across formal verification, LLM compression, PDE foundation model, and particle system generative modeling projects.
+ \item Engineered durable state machines, job-sentinel monitoring, and hook-based workflow enforcement for fault recovery, auditability, and self-healing in long-running experiments.
+\end{itemize}
+
+\proj{AI Verification Agent}{2026}
+\begin{itemize}
+  \item Built LLM-based agents for repository-scale formal verification in Dafny and Lean, aiming to reduce expert manual intervention in safety-critical software verification. Achieved a 51\% pass rate on DafnyBench (\(N=200\)) under multi-round verifier-guided repair, with ablation studies evaluating retrieval, failure memory, and verifier feedback.
+  \item Integrated proof-relevant retrieval across dependency closures, verifier-guided error feedback, structured failure memory, and failure-type-driven action selection.
+\end{itemize}
+
+\proj{Geometry-Aware LLM Compression}{2025--2026}
+\begin{itemize}
+  \item Analyzed LLM representation redundancy from a high-dimensional submanifold geometry perspective, exploring compression strategies that reduce inference cost while preserving benchmark performance for Qwen and Mistral models from 7B to 32B parameters.
+  \item Built activation-geometry pipelines to analyze hidden-state manifold structure and design layer-wise compression strategies for different Transformer modules, with evaluation on MMLU, GSM8K, HellaSwag, and ARC.
+\end{itemize}
+
+\proj{PDE Foundation Model}{2025--2026}
+\begin{itemize}
+  \item Built Fourier Neural Operator and hybrid neural-PDE architectures for learning PDE dynamics from data,  targeting AI-for-Science applications in weather, fluid dynamics, and materials science. Trained and evaluated on PDEBench.
+ \item Investigated the reliability of standard PDE-discovery benchmarks and identified a solver-data mismatch caused by spatial coarsening; used this diagnosis to reduce long-horizon prediction error.
+\end{itemize}
+
+\proj{Interacting Particle System Generative Model}{2026}
+\begin{itemize}
+  \item Developed structured generative world models that recover governing physical laws---single-particle potentials, pairwise interaction kernels, and sparse interaction graphs---from paired endpoint observations of multi-particle systems via structured Schr\"odinger bridges trained with flow matching.
+  \item Validated the method across synthetic, Coulomb, Lennard-Jones, and molecular dynamics systems; the learned model generalizes to out-of-distribution initial conditions and outperforms standard transport/diffusion baselines in these settings, with applications to molecular dynamics, drug discovery, and collective behavior modeling.
+\end{itemize}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Technical Skills}
+
+\begin{tabular}{@{} >{\bfseries}p{3.4cm} p{13.5cm} @{}}
+ML / AI & LLM agents, formal verification (Lean, Dafny), model compression, neural operators, generative modeling, flow matching, scientific ML, manifold learning \\
+Programming & Python, PyTorch, CUDA/MEX, MATLAB \\
+Math \& Modeling & Nonparametric regression, statistical learning theory, PDEs, manifold geometry \\
+\end{tabular}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Publications and Book Chapters}
+\begingroup
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+\emergencystretch=2em
+\begin{itemize}
+ 
+    \item Yantao Wu, Mauro Maggioni. \textit{Conditional Regression for the Nonlinear Single-Variable Model}. {\it Journal of Machine Learning Research}, revise \& resubmit. \href{https://arxiv.org/abs/2411.09686}{arXiv:2411.09686}
+    \item Thomas Y.\ Hou, Xiang Qin, Yannick Sire, Yantao Wu. \textit{Self-similar blow-up profile for the one-dimensional reduction of generalized SQG with infinite energy}. 2026. \href{https://arxiv.org/abs/2603.11301}{arXiv:2603.11301}
+    \item Fanghua Lin, Yannick Sire, Yantao Wu, Yifu Zhou. \textit{Liquid crystals and topological vorticity: smoothness of mild solutions}. 2026. \href{https://arxiv.org/abs/2601.18726}{arXiv:2601.18726}
+    \item Yannick Sire, Yantao Wu, Yifu Zhou. \textit{Global Existence of Weak Solutions to the Two Dimensional Nematic Liquid Crystal Flow with Partially Free Boundary}. {\it Journal of the London Mathematical Society}, 2025, 110. [\href{https://londmathsoc.onlinelibrary.wiley.com/doi/10.1112/jlms.70008}{Paper} \quad \href{https://arxiv.org/abs/2308.04358}{arXiv:2308.04358}]
+    \item Yannick Sire, Yantao Wu, Yifu Zhou. \textit{Geometric variational problems with free boundary: harmonic maps, minimal surfaces and applications to a new model of Liquid Crystal Flow}. {\it Coimbra Mathematical Texts, Modern methods in the analysis of free boundary problems}, \href{https://www.mat.uc.pt/cmt/index.php/cmt}{to appear}.
+    \item Lee Kennard, Yantao Wu. \textit{Halperin's Conjecture in Formal Dimensions up to 20}. {\it Communications in Algebra}, 2023, Volume 51, Issue 8. [\href{https://www.tandfonline.com/doi/abs/10.1080/00927872.2023.2186705}{Paper} \quad \href{https://arxiv.org/abs/2104.04086}{arXiv:2104.04086}]
+\end{itemize}
+\endgroup
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Academic Awards}
+\begin{itemize}
+    \item Chinese Mathematical Olympiad: Provincial First Prize, 2017
+    \item Chinese Physics Olympiad: Provincial First Prize, 2017
+    \item William Lowell Putnam Mathematical Competition: ranked in the top 15\% nationally in 2018 and 2019
+    \item Mathematics Department Awards: Euclid Prize, 2020; Archimedes Prize, 2021
+    \item Physics Department Award: Neil F.\ Beardsley Prize, 2021
+\end{itemize}
+\end{rSection}
+
+\end{document}

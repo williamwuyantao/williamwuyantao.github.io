@@ -1,0 +1,165 @@
+% !TEX program = xelatex
+\documentclass[11pt]{ctexart}
+
+\usepackage[a4paper,margin=0.9in]{geometry}
+\usepackage{array,enumitem,longtable}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,
+    urlcolor=blue,
+}
+\usepackage{titlesec}
+\usepackage{xcolor}
+\usepackage{setspace}
+\usepackage{needspace}
+
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{2pt}
+\setlist[itemize]{leftmargin=1.5em,itemsep=-2pt,topsep=-2pt}
+\titleformat{\section}{\large\bfseries}{}{0pt}{}
+\titlespacing*{\section}{0pt}{8pt}{3pt}
+
+\newcommand{\entry}[4]{%
+\textbf{#1} \hfill {#2}\\
+#3\\
+#4\par
+}
+\newcommand{\proj}[2]{%
+\Needspace{4\baselineskip}%
+\textbf{#1} \hfill {\em #2}\par
+}
+
+\begin{document}
+
+\begin{center}
+{\LARGE\bfseries 武延韬}\par
+\vspace{4pt}
+电话：+86 13506209160 \quad 邮箱：\href{mailto:williamwuyantao@gmail.com}{williamwuyantao@gmail.com} \\ 个人主页：\href{https://williamwuyantao.github.io/}{https://williamwuyantao.github.io}
+\end{center}
+
+%----------------------------------------------------------------------------------------
+\section*{教育背景}
+
+\entry{约翰斯·霍普金斯大学（Johns Hopkins University），Baltimore, MD}{2021年9月 -- 至今}
+{数学博士候选人（Ph.D. Candidate in Mathematics）}
+{导师：Mauro Maggioni 教授，Yannick Sire 教授\\
+研究方向：统计机器学习（Statistical Machine Learning）、大语言模型智能体（LLM Agent）、偏微分方程（Partial Differential Equations）、面向科学研究的人工智能（AI for Science）}
+
+\entry{雪城大学（Syracuse University），Syracuse, NY}{2018年1月 -- 2021年5月}
+{数学学士（B.S. in Mathematics）\ 与\ 物理学学士（B.A. in Physics）双学位}
+{\vspace{-15pt}
+\begin{itemize}
+    \item 最高荣誉毕业（\textit{Summa Cum Laude}），累计 GPA：3.992/4.000
+    \item 数学专业优秀毕业荣誉（\textit{Distinction in Mathematics}）
+    \item 雪城大学校级优秀学者（\textit{Syracuse University Scholar}）
+    \item Phi Beta Kappa 学会会员
+\end{itemize}
+}
+
+%----------------------------------------------------------------------------------------
+\section*{当前研究项目}
+
+\proj{流形足迹模型（Manifold Footprint Model）}{2025--2026}
+\begin{itemize}[leftmargin=1.2em, itemsep=-2pt]
+  \item 开发面向复合模型 $F(x)=f(\Pi_{\mathcal{M}}x)$ 的非参数回归框架，利用未知子流形结构降低高维非参数回归的有效统计维度，并在结构假设下缓解维数灾难。
+  \item 设计并实现 CUDA/MEX 加速的交叉验证内核，包括 warp 协作 Jacobi 特征分解与持久 GPU 内存管理，在 6 万样本的交叉验证任务中，相比 MATLAB 参考实现加速约 100 倍。
+\end{itemize}
+
+\proj{自主科研智能体（Auto-Research Agent）}{2026}
+\begin{itemize}[leftmargin=1.2em, itemsep=-2pt]
+  \item 构建多智能体科研自动化平台，覆盖文献综述、实验规划、远程执行、结果分析、自动评审与论文/报告生成；已用于形式化验证、LLM 压缩、PDE 基座模型与粒子系统生成建模项目。
+  \item 设计持久化状态机、任务哨兵监控与基于 hooks 的工作流强制执行机制，实现长时间实验的故障恢复、审计与自动修复。
+\end{itemize}
+
+\proj{形式化验证智能体（AI Verification Agent）}{2026}
+\begin{itemize}[leftmargin=1.2em, itemsep=-2pt]
+  \item 构建面向 Dafny/Lean 仓库级形式化验证的 LLM 智能体，目标是降低安全攸关软件形式化验证中对专家手工介入的依赖。
+在 DafnyBench（N=200）多轮 verifier-guided repair 设置下达到 51\% pass rate，并通过消融实验评估检索、失败记忆与 verifier feedback 的贡献。
+  \item 结合跨依赖链证明相关检索、验证器错误反馈、结构化失败记忆与故障类型驱动的动作选择。
+\end{itemize}
+
+\proj{几何感知大语言模型压缩（Geometry-Aware LLM Compression）}{2025--2026}
+\begin{itemize}[leftmargin=1.2em, itemsep=-2pt]
+  \item 从高维子流形几何角度分析 LLM 表征冗余，探索在保持基准性能的同时降低模型推理成本的压缩策略（Qwen、Mistral 7B--32B）。
+  \item 构建激活几何分析流水线，基于隐藏状态的流形结构为不同 Transformer 模块设计逐层压缩策略，并在 MMLU、GSM8K、HellaSwag、ARC 等基准上评测。
+\end{itemize}
+
+\proj{PDE 基座模型（PDE Foundation Model）}{2025--2026}
+\begin{itemize}[leftmargin=1.2em, itemsep=-2pt]
+  \item 构建 Fourier Neural Operator 与 hybrid neural-PDE 架构，从数据中学习 PDE 动力学，面向天气、流体与材料科学中的 AI for Science 应用。在 PDEBench 上训练与评测。
+  \item 研究标准 PDE 发现基准的可靠性，发现空间降采样引起的求解器—数据错配问题，并通过诊断该问题降低长期预测误差。
+\end{itemize}
+
+\proj{相互作用粒子系统生成模型（Interacting Particle System Generative Model）}{2026}
+\begin{itemize}[leftmargin=1.2em, itemsep=-2pt]
+  \item 开发结构化生成式世界模型（world model），通过结构化 Schr\"odinger bridge 与 flow matching 训练，从多粒子系统的配对端点观测中恢复支配物理定律——单粒子势、两体相互作用核和稀疏相互作用图。
+  \item 在合成系统、Coulomb、Lennard-Jones 与分子动力学系统上验证；所得模型可泛化到分布外初始条件，并在该类场景下优于标准 transport/diffusion 基线。可应用于分子动力学、药物发现和集体行为建模。
+\end{itemize}
+
+%----------------------------------------------------------------------------------------
+\section*{技术能力}
+{\small
+\begin{tabular}{@{}>{\bfseries}p{2.7cm}p{11.8cm}@{}}
+机器学习 / AI & 大语言模型智能体, 形式化验证（Lean, Dafny）, 模型压缩, 神经算子, 生成式建模, Flow Matching, 科学机器学习, 流形学习 \\
+编程与系统 & Python, PyTorch, CUDA/MEX, MATLAB, Linux, Git, SSH, 实验自动化 \\
+数学与建模 & 非参数回归, 统计学习理论, 偏微分方程, 流形几何 \\
+\end{tabular}
+}
+
+%----------------------------------------------------------------------------------------
+\section*{论文发表与书章}
+{\footnotesize 注：$^\dagger$ 表示作者按姓氏字母顺序排列。}
+
+\begingroup
+\footnotesize
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+\emergencystretch=2em
+\begin{itemize}
+    \item \textbf{Yantao Wu}, Mauro Maggioni. (2024).
+    \textit{Conditional Regression for the Nonlinear Single-Variable Model}.
+    \textit{Journal of Machine Learning Research}, revise \& resubmit.
+    \href{https://arxiv.org/abs/2411.09686}{arXiv:2411.09686}.
+
+    \item Thomas Y.\ Hou, Xiang Qin, Yannick Sire, \textbf{Yantao Wu}$^\dagger$. (2026).
+    \textit{Self-similar blow-up profile for the one-dimensional reduction of generalized SQG with infinite energy}.
+    \href{https://arxiv.org/abs/2603.11301}{arXiv:2603.11301}.
+
+    \item Fanghua Lin, Yannick Sire, \textbf{Yantao Wu}$^\dagger$, Yifu Zhou. (2026).
+    \textit{Liquid crystals and topological vorticity: smoothness of mild solutions}.
+    \href{https://arxiv.org/abs/2601.18726}{arXiv:2601.18726}.
+
+    \item Yannick Sire, \textbf{Yantao Wu}$^\dagger$, Yifu Zhou.
+    \textit{Global Existence of Weak Solutions to the Two Dimensional Nematic Liquid Crystal Flow with Partially Free Boundary}.
+    \textit{Journal of the London Mathematical Society}, 2025, 110.
+    DOI: 10.1112/jlms.70008.
+    [\href{https://londmathsoc.onlinelibrary.wiley.com/doi/10.1112/jlms.70008}{Paper};
+    \href{https://arxiv.org/abs/2308.04358}{arXiv:2308.04358}]
+
+    \item Yannick Sire, \textbf{Yantao Wu}$^\dagger$, Yifu Zhou.
+    \textit{Geometric variational problems with free boundary: harmonic maps, minimal surfaces and applications to a new model of Liquid Crystal Flow}.
+    \textit{Coimbra Mathematical Texts}, in \textit{Modern methods in the analysis of free boundary problems},
+    \href{https://www.mat.uc.pt/cmt/index.php/cmt}{to appear}.
+
+    \item Lee Kennard, \textbf{Yantao Wu}$^\dagger$.
+    \textit{Halperin's Conjecture in Formal Dimensions up to 20}.
+    \textit{Communications in Algebra}, 2023, Volume 51, Issue 8.
+    [\href{https://www.tandfonline.com/doi/abs/10.1080/00927872.2023.2186705}{Paper};
+    \href{https://arxiv.org/abs/2104.04086}{arXiv:2104.04086}]
+\end{itemize}
+\endgroup
+
+%----------------------------------------------------------------------------------------
+\section*{荣誉与奖项}
+\begin{itemize}
+    \item 中国数学奥林匹克竞赛省级一等奖（2017）
+    \item 中国物理奥林匹克竞赛省级一等奖（2017）
+    \item William Lowell Putnam Mathematical Competition：2018年、2019年均位列全美前15\%
+    \item 数学系奖项：Euclid Prize（2020），Archimedes Prize（2021）
+    \item 物理系奖项：Neil F.\ Beardsley Prize（2021）
+\end{itemize}
+
+\end{document}
