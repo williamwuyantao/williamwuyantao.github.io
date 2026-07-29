@@ -7,8 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a Math PhD candidate in Johns Hopkins University. <br>
-My advisors are Prof. [Yannick Sire](https://scholar.google.com/citations?hl=en&user=sd1Qv2EAAAAJ&view_op=list_works&sortby=pubdate) and Prof. [Mauro Maggioni](https://mauromaggioni.duckdns.org/). 
+I am a postdoc fellow in Department of Applied Mathematics and Statistics at the Johns Hopkins University. I obtained my PhD degree in Math Department at the Johns Hopkins University. My PhD advisors are Prof. [Yannick Sire](https://scholar.google.com/citations?hl=en&user=sd1Qv2EAAAAJ&view_op=list_works&sortby=pubdate) and Prof. [Mauro Maggioni](https://mauromaggioni.duckdns.org/). 
 
 Research Topics
 ------
@@ -20,9 +19,9 @@ Research Topics
 
 Publication (α-β for alphabetical order)
 ------
-* **Yantao Wu**, Mauro Maggioni. *Conditional Regression for the Nonlinear Single-Variable Model*. *Journal of Machine Learning Research*, revise & resubmit. [arXiv:2411.09686](https://arxiv.org/abs/2411.09686).
+* **Yantao Wu**, Mauro Maggioni. *Conditional Regression for the Nonlinear Single-Variable Model*. *Journal of Machine Learning Research*, minor revision. [arXiv:2411.09686](https://arxiv.org/abs/2411.09686).
 
-* Thomas Y. Hou, Xiang Qin, Yannick Sire, **Yantao Wu** (α-β). *Self-similar blow-up profile for the one-dimensional reduction of generalized SQG with infinite energy*. (2026). [arXiv:2603.11301](https://arxiv.org/abs/2603.11301).
+* Thomas Y. Hou, Xiang Qin, Yannick Sire, **Yantao Wu** (α-β). *Self-similar blow-up profile for the one-dimensional reduction of generalized SQG with infinite energy*. *Discrete and Continuous Dynamical Systems*, 2026. [[paper](https://www.aimsciences.org/article/doi/10.3934/dcds.2026111)] · [arXiv:2603.11301(https://arxiv.org/abs/2603.11301)]
 
 * Fanghua Lin, Yannick Sire, **Yantao Wu** (α-β), Yifu Zhou. *Liquid crystals and topological vorticity: smoothness of mild solutions*. (2026). [arXiv:2601.18726](https://arxiv.org/abs/2601.18726).
 
